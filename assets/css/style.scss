@@ -2,9 +2,8 @@
 ---
 
 @import "{{ site.theme }}";
-.container,
-.page-content,
-.wrapper {
-  max-width: 1200px !important;
-  width: 95% !important;
+.container-lg {
+  width: 100%;
+  max-width: none !important;
+}
 }
